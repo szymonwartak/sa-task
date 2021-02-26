@@ -1,0 +1,6 @@
+# IDE files
+.idea
+
+# temp build files
+project/target
+target
