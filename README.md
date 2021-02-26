@@ -36,6 +36,9 @@ communicate the error at this stage.
 The requirements are quite minimal, but given more time, I could package this application up to run on docker for 
 easier portability. To allow for more widespread usage, running as a service would be useful too,
 although this functionality wasn't requested at this stage.
+
+Exception handling wasn't done because the simple nature of the application,
+and the command line running mode make it ok for communicating errors.
 Checking for illegal characters might be sensible too, but what is illegal is unknown at this stage.
 
 I might also take a large corpus and test the solution at scale. 
